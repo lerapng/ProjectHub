@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .bg-blue-600 {
+    background-color: #3f7d27 !important;
+  }
+  
+  .hover\:bg-blue-700:hover {
+    background-color: #6e9c19 !important;
+  }
+
+  .text-blue-600 {
+    color: #398025 !important;
+  }
+}
